@@ -1,24 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:gadget_store/auth_gate.dart';
 
-import 'home.dart';
-import 'login.dart';
-
-// class GadgetStore sebagai class utama dari app
+/* class GadgetStore yang berfungsi sebagai widget utama dari aplikasi */
 class GadgetStore extends StatelessWidget {
   const GadgetStore({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    /* widget untuk mengatur tampilan aplikasi */
     return MaterialApp(
-      title: 'GADGET STORE',
-      // initialRoute berfungsi sebagai route yang pertama kali dipanggil saat app dibuka
-      initialRoute: '/login',
-      routes: {
-        // '/login' memanggil class LoginPage dari file login.dart untuk dijalankan pertama kali saat app dibuka
-        '/login': (BuildContext context) => const LoginPage(),
-        // '/' route memanggil class Home dari file home.dart untuk dijalankan setelah route /login
-        '/': (BuildContext context) => const Home(),
-      },
+      /* fungsi untuk mengatur tema aplikasi */
+      theme: ThemeData(
+        primarySwatch: Colors.lightBlue,
+        useMaterial3: true,
+      ),
+      /* route untuk menentukan halaman utama aplikasi, yaitu halaman dari
+       * widget AuthGate */
+      home: const AuthGate(),
     );
   }
 }

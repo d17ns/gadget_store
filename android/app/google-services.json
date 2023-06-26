@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "137826236695",
+    "project_id": "gadget-store-ccdcb",
+    "storage_bucket": "gadget-store-ccdcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137826236695:android:fef329a09dd2f4dc291f52",
+        "android_client_info": {
+          "package_name": "com.d17ns.gadget_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137826236695-peshfqq5l9kge7u20pebjctl1nubd7s1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmiFEQ51rFic9-m6_bnvYjpXbZYADp12M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137826236695-peshfqq5l9kge7u20pebjctl1nubd7s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
